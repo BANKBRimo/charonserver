@@ -1,0 +1,178 @@
+@import url(//db.onlinewebfonts.com/c/5259e972a215b1518c3af6a01de21274?family=BeaufortMedium);
+
+html{
+    height: 100%;
+}
+
+body{
+    background-image: url(back.png);
+    background-repeat: no-repeat;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+    background-color: black;
+    margin: 0;
+    color: #abaaa8;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+#lower{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+#sidebar {
+    width: 200px;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 10px;
+}
+
+#sidebar div ,#sidebar input{
+    width: 180px;
+    background-color: #16181C;
+    border:1px solid #775c31;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+#sidebar div div{
+    all: unset;
+}
+
+#sidebar div div a {
+    font-family: "BeaufortMedium";
+    display: block;
+    margin-bottom: 5px;
+}
+
+#search,#search2{
+    color: #abaaa8;
+}
+
+#main {
+    background-color: rgba(12, 27, 36, .95);
+    border:1px solid #775c31;
+    width: 1000px;
+    padding: 40px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.pagetitle {
+    color: white;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.reply {
+    border:1px solid #775c31;
+    margin-bottom:10px;
+    padding:10px
+}
+
+.authorReply {
+    font-size: 1.5em;
+    color: #d5d1c2 !important;
+    font-family: "BeaufortMedium";
+}
+
+.votesReply {
+    margin-bottom: 1em;
+}
+
+.contentReply {
+    margin-bottom: 1em;
+}
+
+.titleArticle {
+    font-size: 2em;
+    color: #d5d1c2;
+    font-family: "BeaufortMedium";
+}
+
+.authorArticle {
+    font-size: 1.5em;
+    color: #d5d1c2 !important;
+    font-family: "BeaufortMedium";
+}
+
+.votesArticle {
+    margin-bottom: 1em;
+}
+
+.contentArticle {
+    margin-bottom: 1em;
+}
+
+.nameProfile {
+    font-size: 2em;
+    color: #d5d1c2;
+    font-family: "BeaufortMedium";
+}
+
+.dateProfile {
+    margin-top: 1em;
+}
+
+.titleProfile {
+    font-size: 1.2em;
+    color: #d5d1c2;
+}
+
+.pageProfile {
+    position: absolute;
+    right: 0;
+    top: 5px;
+}
+
+.pageProfile a {
+    margin: 5px;
+    font-size: 1.2em;
+}
+
+.embed {
+    background-color: #09141a;
+    border: 1px solid #394750;
+    padding: 10px;
+    min-height: 60px;
+    margin-bottom: 20px;
+}
+
+.embed img {
+    float: left;
+    height: 60px;
+    margin-right: 20px;
+}
+
+.quote {
+    border-left:1px solid #775c31;
+    padding-left: 5px;
+}
+
+hr {
+    border-color: #775c31;
+}
+
+a {
+    color: #b49a5d;
+    text-decoration: none;
+}
+
+a.invis{
+    color: inherit;
+    text-decoration: none;
+}
+
+.icon {
+    height: 2em;
+}
+
+.sticker {
+    height: 8em;
+}
